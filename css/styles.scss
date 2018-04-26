@@ -74,3 +74,21 @@ body{
     bottom: 0px;
 }
 
+.modal-header {
+    background: $background-dark;
+
+    .modal-title {
+        color: floralwhite;
+    }
+    [data-dismiss] {
+        background: $background-light;
+    }
+}
+
+.modal-body {
+    background: $background-pale;
+}
+
+.id-login {
+    cursor: pointer;
+}
