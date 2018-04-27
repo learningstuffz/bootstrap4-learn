@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$floralwhite: #fffaf0;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -75,20 +76,18 @@ body{
 }
 
 .modal-header {
-    background: $background-dark;
-
-    .modal-title {
-        color: floralwhite;
-    }
-    [data-dismiss] {
-        background: $background-light;
-    }
+    background-color: $background-dark;
+    color: $floralwhite;
 }
 
 .modal-body {
-    background: $background-pale;
+    background-color: $background-light;
 }
 
-.id-login {
-    cursor: pointer;
+.close {
+    color: $floralwhite;
+}
+
+input[type="radio"] {
+    margin: 0 10px 0 10px;
 }

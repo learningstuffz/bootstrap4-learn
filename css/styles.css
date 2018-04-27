@@ -53,14 +53,14 @@ body {
   bottom: 0px; }
 
 .modal-header {
-  background: #512DA8; }
-  .modal-header .modal-title {
-    color: floralwhite; }
-  .modal-header [data-dismiss] {
-    background: #9575CD; }
+  background-color: #512DA8;
+  color: #fffaf0; }
 
 .modal-body {
-  background: #D1C4E9; }
+  background-color: #9575CD; }
 
-.id-login {
-  cursor: pointer; }
+.close {
+  color: #fffaf0; }
+
+input[type="radio"] {
+  margin: 0 10px 0 10px; }
